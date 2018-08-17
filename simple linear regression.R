@@ -11,7 +11,7 @@ summary(fit)
 cbind(ndata1,p1)
 range(women$height)
 # for different values
-(ndata1 = data.frame(height=c(66.8,59.3)))
+(ndata1 = data.frame(height=c(70:80)))
 (p1=predict(fit, newdata=ndata1,type='response'))
 cbind(ndata1,p1)
 
